@@ -3,7 +3,7 @@
 
 # extract and clean texts from downloaded wikipedia dump
 mkdir -p extracted
-python WikiExtractor.py enwiki-latest-pages-articles.xml.bz2 -b 1G -o extracted --no-template --processes 24
+python WikiExtractor.py fawiki-latest-pages-articles.xml.bz2 -b 1G -o extracted --no-template --processes 24
 
 # process the extracted wiki text corpus including: splitting the sentence, sentence tokenization,
 # removing sentences that contain less than 20 characters or less then 5 tokens,
