@@ -1,5 +1,5 @@
 # download the latest fa wikipedia dump
-curl -L -O "https://dumps.wikimedia.org/fawiki/latest/fawiki-latest-pages-articles.xml.bz2"
+#curl -L -O "https://dumps.wikimedia.org/fawiki/latest/fawiki-latest-pages-articles.xml.bz2"
 
 # extract and clean texts from downloaded wikipedia dump
 mkdir -p extracted
